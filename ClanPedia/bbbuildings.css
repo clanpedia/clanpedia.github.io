@@ -1,0 +1,349 @@
+@font-face {
+    font-family: Supercell;
+    src: url(fonts/Supercell-magic-webfont.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Navigation Bar*/
+.logo {
+    max-width: 50%;
+}
+
+li, a {
+    font-family: Supercell, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    opacity: 1;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link li {
+    display: inline-block;
+}
+
+.nav_link li a:hover {
+    color: goldenrod;
+}
+
+/*First Section*/
+.section1 {
+    padding-top: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("BuilderBase\ Buildings/bbbuildings1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center, center;
+}
+
+#title {
+    font-family: Supercell, sans-serif;
+    font-size: 45px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 25px;
+
+}
+
+#elixirquotecontainer {
+    width: 35%;
+}
+
+#elixirquote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+}
+
+/*Second section*/
+.section2 {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 1/3 2/3 3/3;
+    grid-template-areas: 
+        "buildercontainer intro1container"
+        "buildercontainer intro2container"
+}
+
+#intro1container {
+    grid-area: intro1container;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 70%;
+}
+
+#intro2container {
+    grid-area: intro2container;
+    padding-left: 10%;
+    width: 70%;
+}
+
+#buildercontainer {
+    grid-area: buildercontainer;
+}
+
+#intro1 {
+    font-family: Supercell, sans-serif;
+    text-align: justify;
+}
+
+#intro2 {
+    font-family: Supercell, sans-serif;
+    text-align: justify;
+}
+
+#intro3 {
+    font-family: Supercell, sans-serif;
+    text-align: justify;
+}
+
+#builder {
+    width: 80%;
+    height: auto;
+    padding-right: 0;
+}
+
+/*Third section*/
+.section3 {
+    display: flex;
+
+    width: 100%;
+    flex-direction: column;
+    padding-top: 3%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("BuilderBase\ Buildings/bbb2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center, center;
+}
+
+#navContainer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+}
+
+#nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.nav_link2 li {
+    display: inline;
+    text-align: center;
+    width: 100%;
+}
+
+.nav_link2 > li a{
+    justify-content: center;
+    font-size: 30px;
+}
+
+.nav_link2 li a:hover {
+    color: black;
+    background: rgba(255,255,255, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#currentPage a {
+    color: black;
+    background: rgba(255,255,255, 0.8);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#scrollerbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+    margin: 25px;
+}
+
+.scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 24%;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.troops {
+    display: grid;
+    grid-template-rows: min-content;
+    padding: 1rem;
+}
+
+.troops > img {
+    inline-size: 100%;
+    width: 50%;
+    height: auto;
+    aspect-ratio: 5/5;
+    object-fit: contain;
+}
+
+.troopName {
+    font-family: Supercell, sans-serif;
+    color: white;
+}
+
+.troopDesc {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*FOOTER*/
+footer {
+    overflow-x: hidden;
+}
+
+.footerElement1{
+    background-color: black;
+    display: grid;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    grid-template-columns: 25% auto auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "logoAndMotto explore connect cs"
+        "logoAndMotto explore social nl"
+}
+
+.logoAndMotto {
+    grid-area: logoAndMotto;
+}
+
+.exploreContainer {
+    grid-area: explore;
+}
+
+.connectContainer {
+    grid-area: connect;
+}
+
+.socialContainer {
+    grid-area: social;
+}
+
+.csContainer {
+    grid-area: cs;
+}
+
+.newsLetterContainer {
+    grid-area: nl;
+    display: grid;
+    grid-template-columns:  auto 60%;
+    grid-template-rows: auto 80%;
+    grid-template-areas: 
+        "nlTitle nlTitle"
+        "nl1 nl2" 
+}
+
+#nlTitle {
+    grid-area: nlTitle;
+}
+
+#subscribe {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nl1 {
+    grid-area: nl1;
+    width: 100%;
+}
+
+#nl2 {
+    width: 100%;
+    grid-area: nl2;
+}
+
+.copyrightContainer {
+    background-color: gray;
+}
+
+.copyrightContainer > p {
+    color: white;
+}
+
+.footerTitle {
+    font-family: Supercell, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.footerList > li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding-top: 0;
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.5;
+}
+
+#motto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+}
+
+#footerLogo {
+    width: 80%;
+    height: auto;
+    object-position: center;
+}
+
+#footerLogoContainer {
+    text-align: center;
+}
+
+#socials {
+    width: 30%;
+    height: auto;
+    margin-top: 1%;
+}
+
+.footerElement2 {
+    background-color: darkgray;
+}
