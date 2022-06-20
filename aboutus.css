@@ -52,7 +52,7 @@ header {
 .pic1{
     padding-top: 0;
     width: 100%;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("aboutusimages/collage.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("AboutUsImages/collage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -62,7 +62,7 @@ header {
 .pic2 {
     height: 700px;
     width: 980px;
-    background-image: url("aboutusimages/collage2.png");
+    background-image: url("AboutUsImages/collage2.png");
     position: relative;
     background-repeat: no-repeat;
     bottom: 310px;
