@@ -1,2 +1,1 @@
 # clanpedia.github.io
-sgfgserg
