@@ -70,7 +70,7 @@ header {
 /*First Section*/
 .section1 {
     padding-top: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("images/image1.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("Images/image1.png");
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -167,7 +167,7 @@ header {
     width: 100%;
     flex-direction: column;
     padding-top: 3%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/image2.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/image2.png");
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: scroll;
