@@ -94,23 +94,29 @@ header {
     grid-area: intro1container;
     padding-top: 10%;
     width: 70%;
+    display: flex;
+    justify-content: center;
 }
 
 #intro2container {
     grid-area: intro2container;
     width: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 #Villagercontainer {
     grid-area: wizardcontainer;
+    display: flex;
+    justify-content: center;
 }
 
 #intro1 {
     font-family: Supercell, sans-serif;
-    text-align: justify;
+    text-align: center;
     position: absolute;
     top:56pc ;
-    left: 48pc;
+    left: 48%;
     
 }
 
@@ -119,18 +125,16 @@ header {
     text-align: center;
     position: absolute;
     top: 60pc;
-    left: 44pc;
- 
-
+    left: 45%;
 }
 
 
 #boxRec {
-    left: 20pc;
     width: 40%;
     height: auto;
     position: relative;
     margin-top: 5pc;
+    left: -7%;
 }
 
 /*Third section*/
