@@ -63,10 +63,12 @@ header {
     height: 700px;
     width: 980px;
     background-image: url("AboutUsImages/collage2.png");
-    position: relative;
     background-repeat: no-repeat;
-    bottom: 310px;
-    left: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 25%;
     
 }
 
@@ -106,7 +108,6 @@ header {
     letter-spacing: 0.1em;
     line-height: 1.6;
     color: black;
-    padding-bottom: 20pc;
  }
 
 
