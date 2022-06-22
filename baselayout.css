@@ -273,6 +273,19 @@ footer {
     list-style: none;
     line-height: 1.5;
 }
+.footerList > li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding-top: 0;
+    padding-left: 0;
+    list-style: none;
+    line-height: 1.5;
+}
+
+.footerList > li a:hover {
+    color: goldenrod;
+}
 
 #motto {
     font-family: 'Montserrat', sans-serif;
