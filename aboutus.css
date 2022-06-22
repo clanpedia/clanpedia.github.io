@@ -34,7 +34,7 @@ header {
     align-items: center;
     background-color: black;
     opacity: 1;
-    position: relative;
+    position: fixed;
 }
 .nav_link {
     list-style: none;
