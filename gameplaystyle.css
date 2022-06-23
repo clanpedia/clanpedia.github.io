@@ -50,7 +50,7 @@ header {
 .section1{
     padding-top: 300px;
     background-image:  linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("GameplayImages/gameplay\ bg.png");
-    background-size: 1728px 792px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center, center;
@@ -63,7 +63,6 @@ header {
    padding-left: 1ch;
    color: white;
 }
-
 
 #Gameplayquote{
    font-family: 'Montserrat', sans-serif;
