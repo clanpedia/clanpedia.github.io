@@ -125,11 +125,12 @@ header {
 
 }
 .base{
-  align-items: center;
-  position: relative;
-  
-  bottom: 1pc;
-  left: 20pc;
+    position: relative;
+    margin-bottom: 1pc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .middlecaption{
     font-family: Supercell, sans-serif;;
@@ -139,7 +140,10 @@ header {
 }
 .War{
     position: relative;
-    left: 20pc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     margin-bottom: 1pc;
 }
 .bottomcaption{
@@ -150,7 +154,10 @@ header {
 }
 .build{
     position: relative;
-    left: 20pc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     margin-bottom: 1pc;
 }
 
