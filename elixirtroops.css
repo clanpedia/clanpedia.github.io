@@ -71,7 +71,7 @@ header {
 .section1 {
     padding-top: 500px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("Images/image1.png");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center, center;
@@ -168,7 +168,7 @@ header {
     flex-direction: column;
     padding-top: 3%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("Images/image2.png");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center, center;
